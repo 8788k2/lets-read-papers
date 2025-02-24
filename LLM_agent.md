@@ -18,4 +18,4 @@ LLM이 추론 과정과 행동 지정(task-specific actions)을 교차(interleav
 4. ReAct (추론 + 행동 결합) - 사고(thinking)와 행동(acting)을 결합하여 보다 효과적인 문제 해결 가능.
 ```
 
-![what can do ReAct](images/rotation_expample.gif)
+![what can do ReAct](images/LLM_agent_example_ReAct.png)
