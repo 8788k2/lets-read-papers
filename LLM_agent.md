@@ -19,7 +19,7 @@ LLM이 추론 과정과 행동 지정(task-specific actions)을 교차(interleav
 4. ReAct (추론 + 행동 결합) - 사고(thinking)와 행동(acting)을 결합하여 보다 효과적인 문제 해결 가능.
 ```
 
-![what can do ReAct](LLM_agent_example_ReAct.png)
+![what can do ReAct](images/LLM_agent_example_ReAct.png)
 
 ## 기존 연구들의 한계
 ### CoT(Chain-of-Thought)의 한계
@@ -38,8 +38,8 @@ LLM이 추론 과정과 행동 지정(task-specific actions)을 교차(interleav
 
 환경과 인터랙션하여 정보 업데이트 가능 (ex: Wikipedia와 상호작용하여 최신 정보 반영)
 
-기존 방법들은 정적인 사고를 하지만, ReAct는 상황에 맞춰 동적으로 사고(reasoning) 조정 가능
-따라서, 보다 현실적이고 강건한(task-resilient) AI 모델 구축 가능
+**기존 방법들은 정적인 사고를 하지만, ReAct는 상황에 맞춰 동적으로 사고(reasoning) 조정 가능
+따라서, 보다 현실적이고 강건한(task-resilient) AI 모델 구축 가능**
 
 ## 4가지 벤치마크를 활용한 테스트
 ReAct와 기존의 모델의 성능을 이하 4 종류의 벤치마크로 테스트
@@ -52,4 +52,4 @@ ReAct와 기존의 모델의 성능을 이하 4 종류의 벤치마크로 테스
 
 내부 지시과 외부 지식 동시에 활용 가능하다는 장점 존재
 
-적은 학습량으로도 강화 학습(reinforcement learning) 및 모방 학습(imitation learning) 기반 방법을 능가하는 성능을 보임
+**적은 학습량으로도 강화 학습(reinforcement learning) 및 모방 학습(imitation learning) 기반 방법을 능가하는 성능을 보임**
